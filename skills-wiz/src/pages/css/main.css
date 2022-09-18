@@ -62,3 +62,16 @@ input[type="range"]::-webkit-slider-thumb{
     border: 1px solid var(--black);
     border-radius: 40px;
 }
+
+
+
+input[type="range"]::-moz-range-thumb{
+    width:40px;
+    height:40px;
+    background: var(--white);
+    position:relative;
+    z-index:3;
+    box-shadow:0 0 5px 0 var(--transBlack);
+    border: 1px solid var(--black);
+    border-radius: 40px;
+}

@@ -134,3 +134,12 @@ nav > ul {
         height: 100%;
     }
 }
+
+@-moz-document {
+    h1 {
+        color: red;
+    }
+    :-ms-input-placeholder{
+        color: red;
+    }
+}
